@@ -75,7 +75,7 @@ export default {
     methods: {
         /**
          * Hàm mở popup payment detail
-         * @author Xuân Đào (13/05/2023)
+         * @author Hoàng Anh (13/05/2024)
          */
         async gotoDetail(){
             sessionStorage.paymentMode = PaymentFormMode.create;

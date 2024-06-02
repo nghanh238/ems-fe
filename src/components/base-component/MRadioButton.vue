@@ -1,5 +1,5 @@
 // Component build radio button theo mảng được chuyền qua props
-// Author: Xuân Đào (15/03/2023)
+// Author: Hoàng Anh (15/03/2024)
 <template>
     <div class="container">
         <div class="title">{{ title }}</div>

@@ -32,7 +32,7 @@ export default {
       /**
        * Xự kiện click vào item trong context
        * 
-       * @author Xuân Đào (04/04/2023)
+       * @author Hoàng Anh (04/04/2024)
        */
         comboOnClick(){
           if (this.enable && !this.showAction)
@@ -43,7 +43,7 @@ export default {
         /**
          * Xự kiện xóa
          * 
-         * @author Xuân Đào (04/04/2023)
+         * @author Hoàng Anh (04/04/2024)
          */
         multipleDelete(){
           this.$emit('deleteMultiple');

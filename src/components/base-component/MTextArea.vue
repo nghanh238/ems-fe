@@ -1,5 +1,5 @@
 // Component tạo ra một input tự validate
-// Author: Xuân Đào(05/03/2023)
+// Author: Hoàng Anh(05/03/2024)
 <template>
   <div class="inf-component com1">
     <div class="text-area">
@@ -100,7 +100,7 @@ export default {
     /**
      * Hàm set focus vào input
      * 
-     * Author: Xuân Đào (05/03/2023)
+     * Author: Hoàng Anh (05/03/2024)
      */
     setFocus() {
       this.$refs.mInput.focus();
@@ -137,7 +137,7 @@ export default {
     /**
      * Hàm lấy tên input
      *
-     * @author  Xuân Đào (12/03/2023)
+     * @author  Hoàng Anh (12/03/2024)
      */
     getInputName(){
       return this.inputTitle;

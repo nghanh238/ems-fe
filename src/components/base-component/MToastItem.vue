@@ -1,7 +1,7 @@
 // Component build các loại toast message dùng chung cho toàn bộ project
 // Props: kindOfToast - loại toast message
 // Props: toastMess - nội dung toast message
-// Author: Xuân Đào (15/03/2023)
+// Author: Hoàng Anh (15/03/2024)
 <template>
   <div class="toast-mess" ref="toast">
     <div :class="toastAttribute.class">

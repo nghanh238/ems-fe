@@ -41,7 +41,7 @@ export default {
      * Hàm set vị trí hiển thị cho context menu
      * @param x x
      * @param y y
-     * Author: Xuân Đào (12/03/2023)
+     * Author: Hoàng Anh (12/03/2024)
      */
     setPosition(x, y){
       this.$refs.main.style.right = x + "px";

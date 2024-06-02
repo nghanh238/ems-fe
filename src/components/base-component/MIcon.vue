@@ -1,5 +1,5 @@
 // Component tạo ra một icon
-// Author: Xuân Đào(05/03/2023)
+// Author: Hoàng Anh(05/03/2024)
 <template>
     <div>
         

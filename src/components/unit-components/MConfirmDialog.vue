@@ -1,5 +1,5 @@
 // Component hiển thị cảnh báo xác nhận khi dữ liệu bị thay đổi
-// Author: Xuân Đào (05/03/2023)
+// Author: Hoàng Anh (05/03/2024)
 <template>
   <div class="dialog" id="confirmDialog">
     <div class="dialog-content">
@@ -67,7 +67,7 @@ export default {
     /**
      * Hàm xử lý sự kiện bàn phím
      *
-     * @author  Xuân Đào (12/03/2023)
+     * @author  Hoàng Anh (12/03/2024)
      */
     handleOnKeyDown(){
       if(event.code === "Tab"){
@@ -81,7 +81,7 @@ export default {
     /**
      * Hàm đóng confirm dialog
      *
-     * Author: Xuân Đào (05/03/2023)
+     * Author: Hoàng Anh (05/03/2024)
      */
     closeConfirmDialog() {
       this.$emit("hideDialog");
@@ -90,7 +90,7 @@ export default {
     /**
      * Hàm đóng confirm dialog, đóng popup và hủy bỏ toàn bộ thay đổi
      *
-     * Author: Xuân Đào (05/03/2023)
+     * Author: Hoàng Anh (05/03/2024)
      */
     closeAndUndo() {
       this.$emit("hideDialogPopup");
@@ -99,7 +99,7 @@ export default {
     /**
      * Hàm đóng confirm dialog, đóng popup và lưu toàn bộ thay đổi
      *
-     * Author: Xuân Đào (05/03/2023)
+     * Author: Hoàng Anh (05/03/2024)
      */
     closeAndSave() {
       this.$emit("hideAndSave");

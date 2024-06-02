@@ -7,7 +7,7 @@ let resources =  {
             0: "CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ - QUÝ PHÚC"
         },
         username: {
-            0: "Trịnh Xuân Đào"
+            0: "Nguyễn Hoàng Anh"
         },
         menuItem:{
             0: "Tổng quan",
@@ -322,7 +322,7 @@ let resources =  {
         errorMes: "Oops, something went wrong contact MISA!"
     },
 
-    endpoint: "https://equipmentsys.azurewebsites.net/api/"
+    endpoint: "https://localhost:44381/api/"
 }
 
 export default resources

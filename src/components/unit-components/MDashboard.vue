@@ -88,8 +88,8 @@
         let options = {
         chart: {
           type: 'line',
-          height: 300,
-          width: 1200,
+          height: 350,
+          width: 1100,
           dropShadow: {
             enabled: true,
             color: '#000',
@@ -180,8 +180,8 @@
             this.chartData.datasets[0].data[2] = this.repair;
             this.chartData.datasets[0].data[3] = this.broken;
             this.chartKey++;
-            let currentYearAssets = data.filter(x => ((new Date(x.boughtat)).getFullYear() == (new Date()).getFullYear())),
-                previousYearAssets = data.filter(x => ((new Date(x.boughtat)).getFullYear() == (new Date()).getFullYear() - 1)),
+            let currentYearAssets = data.filter(x => ((new Date(x.boughtat)).getFullYear() == (new Date()).getFullYear() - 1)),
+                previousYearAssets = data.filter(x => ((new Date(x.boughtat)).getFullYear() == (new Date()).getFullYear() - 2)),
                 currentYearData = [],
                 previouesYearData = [];
             for (let i=1;i<=12;i++){
